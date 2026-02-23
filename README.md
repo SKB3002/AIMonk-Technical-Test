@@ -1,5 +1,8 @@
 # AIMonk Multilabel Image Classification – Technical Assignment
+---
+**This repository implements an end-to-end multi-label image classification pipeline using a ResNet50 model fine-tuned on ImageNet with TensorFlow. The solution handles missing annotations via a masked loss, addresses class imbalance with per-label weighting, and includes a robust training workflow with learning-rate scheduling and early stopping. The final model achieves ~0.71 validation F1, demonstrating strong generalization on a noisy, imbalanced dataset.**
 
+---
 ## 🔍 Problem Statement
 
 This project addresses a multilabel image classification problem where each image may contain multiple attributes. The dataset includes missing labels (NA values) and exhibits class imbalance across attributes.
